@@ -1,0 +1,6 @@
+applications:
+  - name: mass-ecdsa-proxy-demo
+    memory: 64M
+    buildpack: https://github.com/heroku/heroku-buildpack-nodejs#v83
+    disk_quota: 256M
+    
