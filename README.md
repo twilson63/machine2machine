@@ -50,7 +50,7 @@ This should return an access denied.
 
 Build a secure target service of your own, and see if you can leverage this demo proxy on 
 
-https://mass-ecdsa-proxy-demo.staging.ckapps.io 
+https://mass-ecdsa-proxy-demo.cfapps.io 
 
 to secure your target endpoint.
 

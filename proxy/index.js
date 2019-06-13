@@ -22,7 +22,7 @@ app.all('/proxy', async (req, res) => {
   }
   // build jwt payload
   const target = new URL(req.query.target)
-  const issuer = 'https://mass-ecdsa-proxy-demo.staging.ckapps.io'
+  const issuer = 'https://mass-ecdsa-proxy-demo.cfapps.io'
   const audience = target.origin
   const exp = Math.round(new Date() / 1000 + 7200) // 2 hours
   const iat = Math.round(new Date() / 1000)
@@ -75,7 +75,7 @@ ${publicKey}
     <p>You can also download the public key</p>
 
     <pre><code>
-curl -O https://mass-ecdsa-proxy-demo.ckapps.io/id_ecdsa.pub
+curl -O https://mass-ecdsa-proxy-demo.cfapps.io/id_ecdsa.pub
     </code></pre>
         </div>
       </div>

@@ -23,7 +23,7 @@ app.all('/', express.json(),  async (req, res) => {
   // verify jwt with publicKey and attributes
   const payload = await verify(jwt, publicKey, {
     algorithms: ['ES512'],
-    issuer: 'https://mass-ecdsa-proxy-demo.staging.ckapps.io',
+    issuer: 'https://mass-ecdsa-proxy-demo.cfapps.io',
     audience: 'http://localhost:3030'
   })
     .catch(err => {
