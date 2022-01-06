@@ -513,9 +513,9 @@ ms@^2.1.1:
   integrity sha512-sGkPx+VjMtmA6MX27oA4FBFELFCZZ4S4XqeGOXCv68tT+jb3vk/RyaKWP0PTKyWtmLSM0b+adUTEvbs1PEaH2w==
 
 msrcrypto@^1.5.1:
-  version "1.5.3"
-  resolved "https://registry.yarnpkg.com/msrcrypto/-/msrcrypto-1.5.3.tgz#55cafb3c52ae5c51193628cd4398c1f7940fa8e6"
-  integrity sha512-dEgu9OAAsknOoV3WEMZVyax46JeLqa81D/bHryo02qT3j16b+3a/f2AdKBAIlPDMtc7/ZWtpNNhdxq+csjQBAg==
+  version "1.5.8"
+  resolved "https://registry.yarnpkg.com/msrcrypto/-/msrcrypto-1.5.8.tgz#be419be4945bf134d8af52e9d43be7fa261f4a1c"
+  integrity sha512-ujZ0TRuozHKKm6eGbKHfXef7f+esIhEckmThVnz7RNyiOJd7a6MXj2JGBoL9cnPDW+JMG16MoTUh5X+XXjI66Q==
 
 negotiator@0.6.2:
   version "0.6.2"
